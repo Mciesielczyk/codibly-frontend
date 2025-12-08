@@ -21,7 +21,7 @@ const OptimalWindow: React.FC = () => {
     setLoading(true);
     setError(null);
 
-    fetch(`http://localhost:8080/energy/optimal-window?windowHours=${windowHours}`)
+    fetch(`https://codibly-backend-1.onrender.com/energy/optimal-window?windowHours=${windowHours}`)
       .then(res => {
         if (!res.ok) throw new Error("Błąd w zapytaniu");
         return res.json();

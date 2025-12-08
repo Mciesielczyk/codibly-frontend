@@ -12,7 +12,7 @@ const EnergyMix: React.FC = () => {
   const [data, setData] = useState<DailyEnergyMix[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/energy/mix")
+    fetch("https://codibly-backend-1.onrender.com/energy/mix")
       .then(res => res.json())
       .then(json => setData(json));
   }, []);
