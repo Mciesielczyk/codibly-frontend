@@ -9,7 +9,7 @@ This is the frontend for the Codibly internship project 2026. It is implemented 
 - Fetch data from the backend API.
 - Responsive design for different screen sizes.
 
-The application is be available at https://codibly-frontend-1-a8ru.onrender.com/mix
+The application is available at https://codibly-frontend-1-a8ru.onrender.com/mix
 
 
 <img width="1230" height="847" alt="image" src="https://github.com/user-attachments/assets/55f39867-829f-437a-8e89-64f488a9d7bd" />
